@@ -1,0 +1,11 @@
+package pl.alek.my_git;
+
+public class Parrot extends Animal{
+
+    String talking;
+
+    public Parrot(String name, String talking) {
+        super(name);
+        this.talking = talking;
+    }
+}
