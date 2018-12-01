@@ -8,4 +8,10 @@ public class Parrot extends Animal{
         super(name);
         this.talking = talking;
     }
+
+    @Override
+    public String toString() {
+        return "Parrot{" +
+                '}';
+    }
 }
