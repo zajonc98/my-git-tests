@@ -8,4 +8,11 @@ public class Monkey extends Animal{
         super(name);
         this.size = size;
     }
+
+    @Override
+    public String toString() {
+        return "Monkey{" +
+                "size='" + size + '\'' +
+                '}';
+    }
 }
