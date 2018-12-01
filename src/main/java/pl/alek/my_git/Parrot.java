@@ -11,10 +11,9 @@ public class Parrot extends Animal{
 
     @Override
     public String toString() {
-        return "Parrot{" + '}';
-    }
-
-    public String getTalking() {
-        return talking;
+        return "Parrot{" +
+                "talking='" + talking + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
