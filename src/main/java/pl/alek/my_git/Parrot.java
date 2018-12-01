@@ -11,7 +11,10 @@ public class Parrot extends Animal{
 
     @Override
     public String toString() {
-        return "Parrot{" +
-                '}';
+        return "Parrot{" + '}';
+    }
+
+    public String getTalking() {
+        return talking;
     }
 }
