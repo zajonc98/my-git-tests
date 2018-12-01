@@ -11,8 +11,10 @@ public class Monkey extends Animal{
 
     @Override
     public String toString() {
-        return "Monkey{" +
-                "size='" + size + '\'' +
-                '}';
+        return "Monkey{" + '}';
+    }
+
+    public String getSize() {
+        return size;
     }
 }
